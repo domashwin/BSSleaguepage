@@ -9,7 +9,6 @@ export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VI
 export const homepageText = `
   <p>Welcome to the new landing page for the BSS league. A Hall of Shame, if you will, for the BSS in all it's horrific glory.</p>
   <p>The league was founded in 2018 and has continued un-interrupted until the present day, with its first expansion occuring in 2023 with the addition of two new teams.</p>
-  
 `;
 
 /*   STEP 3   */
@@ -37,7 +36,7 @@ export const managers = [
         name: "Aaron", // Can be anything (usually your rival's name)
         link: 1, // manager array number within this array, or null to link back to all managers page
         // image: "/managers/rival.jpg", // either a specific manager photo or '/managers/everyone.png' or '/managers/question.png'
-      },
+          },
       // "favoritePlayer": 1426, // (optional) this corresponds to the Sleeper player ID (https://api.sleeper.app/v1/players/nfl)
       // "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
       // "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
@@ -111,9 +110,9 @@ export const managers = [
       "philosophy": "At least we're not the jets", // (optional)
       "tradingScale": 5, // 1 - 10 (optional)
       // "preferredContact": "Text",  // (optional) 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
+    }
     
-  ]
+]
   
   
   /*   !!  !!  IMPORTANT  !!  !! */
